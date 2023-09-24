@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="Screen">
+      <div class="formBehind">
+        <div class="formBG">
+          <h1 class="h1">Sign In</h1>
+          <form class="form">
+            <input
+              id="Email"
+              class="input"
+              title="Email"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              id="Passwword"
+              class="input"
+              title="Passwword"
+              type="password"
+              placeholder="Password"
+            />
+            <button class="button" type="button">
+              <a href="http://127.0.0.1:5500/home.html">Sign In</a>
+            </button>
+
+            <span>
+              <p1
+                >Not Registered?
+                <a href="http://127.0.0.1:5500/signUp.html">Sign Up</a></p1
+              >
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- <script>
+        document.getElementsByClassName("form").addEventListener("button", function(event) {
+            var nameInput = document.getElementById("Email").value;
+            var emailInput = document.getElementById("Password").value;
+
+            if (nameInput === "" || emailInput === "") {
+                alert("Please fill in all required fields.");
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+    </script> -->
+    <div class="cards"></div>
+  </body>
+</html>
