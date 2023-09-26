@@ -5,6 +5,7 @@ body {
   justify-content: center;
   background-image: url(bg.jpg);
   background-attachment: fixed;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -85,6 +86,7 @@ body {
 }
 
 .Welcome {
+  
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
@@ -93,8 +95,83 @@ body {
 }
 
 .text {
-    margin-top: 410px;
+  margin-top: 430px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
+}
+
+.footer{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+.contact{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: larger;
+}
+.footer{
+  background-color: rgb(53, 53, 53);
+}
+
+.fH3{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.fP1{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: dimgrey;
+  font-size: larger
+}
+
+.Elink{
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 0, 242);
+  text-decoration: none;
+  background-color: rgb(19, 19, 19);
+  
+}
+
+
+.button:hover {
+  height: 100;
+  font-size: large;
+  border-radius: 8px;
+  border-color: rgb(234, 0, 255);
+  background-color: rgb(88, 0, 84);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    box-shadow: 0px 1px 10px rgb(255, 3, 255);
+  }
+
+.Blink:hover {
+  margin: 4px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.LogOut:hover {
+  margin: 6px;
+  padding: 6px;
+  border-radius: 8px;
+  border-color: aliceblue;
+  border-width: white;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 10px rgb(255, 3, 255);
 }
