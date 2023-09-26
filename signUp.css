@@ -4,6 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
 }
 .screen {
   width: 100vw;
@@ -110,4 +111,39 @@ input.checkbox {
 
 .cards {
   background-color: rgb(1, 26, 26);
+}
+
+
+.button:hover {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  text-decoration: rgb(0, 225, 255);
+  height: 30px;
+  border-color: rgb(0, 136, 255);
+  background-color: rgb(39, 39, 39);
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgb(247, 0, 255);
+  align-self: flex-start;
+  margin-left: 50px;
+}
+
+
+.h1:hover {
+  padding-top: 20%;
+  padding-bottom: 0%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 8px rgb(225, 0, 255);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 221);
 }
